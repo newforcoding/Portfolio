@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	font-family: cursive;
+	padding: 0;
+}
+.header {
+	background-color: rgb(192, 118, 118);
+	height: 50px;
+	color: blanchedalmond;
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-name {
+	padding: 8px 12px;
+}
+
+.header-bar {
+	color: blanchedalmond;
+}
+.header-bar nav {
+	display: flex;
+	justify-content: space-between;
+}
+.header-bar ul li {
+	flex: 1;
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+}
+.header-bar ul li a {
+	color: blanchedalmond;
+	text-decoration: none;
+	font-size: 13px;
+}
+.header-bar ul li a:hover {
+	color: chartreuse;
+	width: 100%;
+}
