@@ -18,22 +18,27 @@
 .header-bar {
 	color: blanchedalmond;
 }
-.header-bar nav {
+.header-bar {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
 }
-.header-bar ul li {
-	flex: 1;
-	list-style: none;
+.header-bar nav li {
 	display: inline-block;
-	padding: 8px 12px;
+	padding: 15px;
 }
-.header-bar ul li a {
+li a {
 	color: blanchedalmond;
 	text-decoration: none;
-	font-size: 13px;
 }
-.header-bar ul li a:hover {
-	color: chartreuse;
-	width: 100%;
+li a:hover {
+	color: brown;
+	background-color: chartreuse;
+	border-radius: 5px;
+	padding: 7px;
+}
+
+@media (max-width: 700px) {
+	.header-name {
+		margin-top: 5px;
+	}
 }
