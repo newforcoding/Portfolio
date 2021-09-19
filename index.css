@@ -8,7 +8,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: rgba(0, 0, 0, 0.2);
 	position: sticky;
 	top: 0;
 	height: 3rem;
@@ -24,15 +23,58 @@
 }
 .header nav ul li a {
 	text-decoration: none;
-	color: rgb(61, 77, 46);
 	padding: 8px 25px;
+	color: black;
 }
 .header nav ul li a:hover {
-	color: coral;
-	border-bottom: cornsilk;
+	text-shadow: 0 4px 15px pink, 0 0.9px 3px pink, 0 1px 2px black;
+	color: cornsilk;
 }
 
-/* .header-main {
-	background-image: url("https://content.techgig.com/thumb/msid-75430401,width-860,resizemode-4/5-tips-for-students-to-improve-coding-skills-during-college.jpg?58220");
-	background-repeat: no-repeat; 
-} */
+/* Home section */
+
+#home {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.6);
+	justify-content: center;
+	align-items: center;
+	height: 840px;
+	color: salmon;
+}
+#home::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: url("https://content.techgig.com/thumb/msid-75430401,width-860,resizemode-4/5-tips-for-students-to-improve-coding-skills-during-college.jpg?58220")
+		no-repeat center center/cover;
+	height: 900px;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.8;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: center;
+	position: absolute;
+	top: 55%;
+}
+.main h2 {
+	font-size: 4rem;
+}
+.main span,
+p {
+	font-size: 2rem;
+}
+
+.main h2,
+span,
+p {
+	color: cornsilk;
+	text-shadow: 0 4px 15px pink, 0 0.9px 3px pink, 0 1px 2px black;
+	word-wrap: break-word;
+	font-weight: bold;
+}
