@@ -1,66 +1,21 @@
 * {
 	margin: 0;
-	font-family: cursive;
 	padding: 0;
+	box-sizing: border-box;
 }
 .header {
-	background-color: rgb(192, 118, 118);
-	height: 50px;
-	color: blanchedalmond;
-	display: flex;
-	justify-content: space-between;
+	padding: 1rem;
 }
-
-.header-name {
-	padding: 8px 12px;
-}
-
-.header-bar {
-	color: blanchedalmond;
-}
-.header-bar {
-	display: flex;
-	justify-content: space-evenly;
-}
-.header-bar nav li {
+.header nav ul li {
+    list-style-type: none;
+    justify-content: space-around;
 	display: inline-block;
-	padding: 15px;
+    font-size: 2rem;
 }
-li a {
-	color: blanchedalmond;
+.header nav ul li a {
 	text-decoration: none;
 }
-li a:hover {
-	color: brown;
-	background-color: chartreuse;
-	border-radius: 5px;
-	padding: 7px;
-}
-.header-main {
-	/* background-color: black; */
-	background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAABAlBMVEUNL0sLLUoNL0oMMEoAK0oVNlIALE4ML04aPFcSNlUML08AKUsKLUwAJ0YAKU0ALUsAIkMAI0wiRGQgQV0AI1AYPFsAJkwPMEcULkdlVUxkVEGdd0CZdUcOLVMOMkRMT01NSkUTNUthf45FY3IOMUFpYU4PKlfVmULOiz7GjjrLjTbknDhpWksiQFaTt8F9n6i3Q0dyOUk0TWZMYHNyXEj6pDePdEI6QEwAG01tj5iuRkhHNUzsUDyBj5fW5enJ1tqr09eDp63vpUB6ZUSyhEEfJ0iLrbzVSkF/PUnTTEcACDVdc4btoDFCRkp2mKebQkjkSUObSUaexca/gz6nd0A5VmdgGePtAAACjUlEQVR4nO3Wa1PaQBiG4c1uDpBAAgaIVKMFraDIoYoFtAVUqrbaev7/f6UJfiB8qjMdy8jc1wAz+8y7w+7O7iZCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP/ICtxw1Vr0KN4Lr/zBXPQY3gdbKmdt3RHSnktVJuuqZGJp0eYLLCns+f4ikxEy0VShvaGHS7pRN0IpNj+GpnKSqXQr1a1cMgnsINqDysoEyVTPZpXSncRqmdtu4ZNV8t5yzIsid1Stvru316jt64lYb7aq7Wo2kbgVW3idz8LLJMLcweHhQXrrILGs2s569+jpS285V0vU+/mCvttv5LWoOf3aXrM1aFVPc5moKWV8trzOse6dfFWdY29aE6da9ttwNBq2W+OoUgpNSqmJ1cLa2fnkyNUWPK+3YdVdx67sfq/lfT+VWikWiytZvzVoXwzarh81p6nqXJob+uWVLn50vDjx/bhuePhzcD3M62M/7uZHtb7dPSsX+o2JHS56Ym/AEnsl21U3tV96KmWkisV0uhjtq9/R1srZRtwqGkbTvL2r6FeXnrb69daL6oxpXXZUzT+0B8bzOJWOC9NGKhVuNrr5QuM8+Ptfvz92qV7u9c7X+vEl83J2soOt6ungIj5aLzQVBvcd7+5kR3Vu3Vlf53o0vH4Yj8eD2aVlFyZHk8aNvZx3ltmbPD4+aXL2tNeeW61qtFazq1yKjBmc3LtBWFGJC95ynHQzbxgiP8tsc7/Z6Ja3l/POEl6pVHK05MuSrpQh52YrlZCeHv2I+TcoqWnRZz4ynZ6lZwReQylW6tUs1goAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD43/4AvWo1iB3MWvUAAAAASUVORK5CYII=");
-	height: 200px auto;
-	color: blanchedalmond;
-	padding: 20px;
-}
-.main {
-	text-align: center;
-	margin: 80px;
-}
-.main h2 {
-	font-size: 50px;
-	font-weight: bold;
-}
-.main p {
-	font-size: 20px;
-}
-.main-img {
-	text-align: right;
-	height: 50px;
-	width: 50px;
-}
-@media (max-width: 700px) {
-	.header-name {
-		margin-top: 5px;
-	}
+/* .header-main {
+	background-image: url("https://content.techgig.com/thumb/msid-75430401,width-860,resizemode-4/5-tips-for-students-to-improve-coding-skills-during-college.jpg?58220");
+	background-repeat: no-repeat; */
 }
