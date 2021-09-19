@@ -81,7 +81,9 @@ p {
 }
 
 /* About */
-#about {
+#about,
+#work,
+#skill {
 	display: flex;
 	flex-direction: column;
 	padding: 1.4rem;
@@ -90,13 +92,30 @@ p {
 	border-radius: 1rem;
 	background-color: #9878b3;
 }
-.about-me {
+.about-me,
+.work-info,
+.skill-info {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	padding: 10px;
 }
-.about-me h2 {
+.about-me h2,
+.work-info h2,
+.skill-info h2 {
 	font-size: 3rem;
 	color: rgb(39, 36, 41);
+}
+
+/* footer */
+.footer {
+	background-color: #71647a;
+	padding: 1.7rem;
+	border-radius: 0.5rem;
+}
+.footer-info p {
+	display: flex;
+	font-size: 2rem;
+	text-align: center;
+	justify-content: center;
 }
