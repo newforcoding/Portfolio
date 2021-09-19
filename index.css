@@ -2,20 +2,37 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: cursive;
 }
 .header {
-	padding: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: sticky;
+	top: 0;
+	height: 3rem;
 }
-.header nav ul li {
-    list-style-type: none;
-    justify-content: space-around;
-	display: inline-block;
-    font-size: 2rem;
+.header nav ul {
+	list-style: none;
+	display: flex;
+	margin: 20px, 0px;
+}
+.header ul li {
+	font-size: 1.3rem;
+	font-weight: bold;
 }
 .header nav ul li a {
 	text-decoration: none;
+	color: rgb(61, 77, 46);
+	padding: 8px 25px;
 }
+.header nav ul li a:hover {
+	color: coral;
+	border-bottom: cornsilk;
+}
+
 /* .header-main {
 	background-image: url("https://content.techgig.com/thumb/msid-75430401,width-860,resizemode-4/5-tips-for-students-to-improve-coding-skills-during-college.jpg?58220");
-	background-repeat: no-repeat; */
-}
+	background-repeat: no-repeat; 
+} */
