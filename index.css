@@ -86,18 +86,20 @@ p {
 /* About */
 #about,
 #work,
-#skill {
+#skill,
+#contact {
 	display: flex;
 	flex-direction: column;
 	padding: 1.4rem;
 	margin-bottom: 50px;
 	margin: 2rem;
-	border-radius: 1rem;
+	border-radius: 0.2rem;
 	background-color: #9878b3;
 }
 .about-me,
 .work-info,
-.skill-info {
+.skill-info,
+.contact-info {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
@@ -105,9 +107,11 @@ p {
 }
 .about-me h2,
 .work-info h2,
-.skill-info h2 {
+.skill-info h2,
+.contact-info h2 {
 	font-size: 3rem;
 	color: rgb(226, 204, 241);
+	padding-bottom: 0.8rem;
 }
 
 .skill-info li {
@@ -117,6 +121,17 @@ p {
 	text-shadow: 0 4px 15px pink, 0 0.9px 3px pink, 0 1px 2px black;
 	color: cornsilk;
 	list-style-type: lower-latin;
+}
+.contact-info span {
+	font-size: 1rem;
+	color: black;
+}
+.contact-info label {
+	color: bisque;
+	font-size: 1.6rem;
+}
+.contact-info a {
+	text-decoration: none;
 }
 /* footer */
 .footer {
