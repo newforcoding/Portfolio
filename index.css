@@ -95,20 +95,39 @@ p {
 	border-radius: 0.2rem;
 	background-color: #9878b3;
 }
-.about-me,
-.skill-info,
-.contact-info {
+#contact {
+	display: flex;
+}
+.contact-info,
+.about-me {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	padding: 10px;
 }
 .about-me h2,
-.skill-info h2,
-.contact-info h2 {
-	font-size: 3rem;
+.contact-info h2,
+.skill-info h2 {
+	font-size: 2rem;
 	color: rgb(226, 204, 241);
 	padding-bottom: 0.8rem;
+}
+.about-me p {
+	font-size: 1.6rem;
+}
+.skill-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.skill-info h2 {
+	text-align: center;
+}
+.skill-info li {
+	display: flex;
+	font-size: 1.5rem;
+	text-shadow: 0 4px 15px pink, 0 0.9px 3px pink, 0 1px 2px black;
+	color: cornsilk;
 }
 #work {
 	display: flex;
@@ -120,7 +139,7 @@ p {
 	padding: 0.3rem;
 }
 #work h2 {
-	font-size: 3rem;
+	font-size: 2rem;
 	color: rgb(226, 204, 241);
 	padding-bottom: 0.8rem;
 	text-align: center;
@@ -138,15 +157,6 @@ p {
 	margin: 10px;
 	border-radius: 0.7rem;
 }
-
-.skill-info li {
-	display: flex;
-	flex-direction: row;
-	font-size: 1.5rem;
-	text-shadow: 0 4px 15px pink, 0 0.9px 3px pink, 0 1px 2px black;
-	color: cornsilk;
-	list-style-type: lower-latin;
-}
 .contact-info span {
 	font-size: 1rem;
 	color: black;
@@ -158,6 +168,7 @@ p {
 .contact-info a {
 	text-decoration: none;
 }
+
 /* footer */
 .footer {
 	background-color: #71647a;
@@ -169,4 +180,43 @@ p {
 	font-size: 1.2rem;
 	text-align: center;
 	justify-content: center;
+}
+
+@media screen and (max-width: 700px) {
+	.header nav ul li a {
+		padding: 1rem;
+	}
+	.main {
+		padding: 2rem;
+		display: flex;
+		text-align: center;
+	}
+	.main h2 {
+		font-size: 2rem;
+	}
+	.main span,
+	p {
+		font-size: 1.5rem;
+	}
+	.about-me h2 p {
+		font-size: 1.3rem;
+	}
+	#work h2 {
+		font-size: 1.3rem;
+	}
+	.work-info img {
+		width: 92%;
+	}
+	.skill-info h2 {
+		font-size: 1.3rem;
+	}
+	.skill-info li {
+		font-size: 1rem;
+	}
+	.contact-info h2 {
+		font-size: 1.3rem;
+	}
+	.contact-info label {
+		font-size: 1rem;
+	}
 }
