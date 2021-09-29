@@ -31,7 +31,8 @@ html {
 }
 .header nav ul li a:hover {
 	text-shadow: 0 4px 15px pink, 0 0.9px 3px pink, 0 1px 2px black;
-	color: cornsilk;
+	color: rgb(230, 213, 247);
+	text-decoration: underline;
 }
 
 /* Home section */
@@ -95,6 +96,23 @@ p {
 	border-radius: 0.2rem;
 	background-color: #9878b3;
 }
+/* .about-me p {
+	animation: about 4s linear 5s 2 reverse backwards;
+}
+@keyframes about {
+	0% {
+		left: 0px;
+	}
+	25% {
+		left: 200px;
+	}
+	75% {
+		left: 50px;
+	}
+	100% {
+		left: 100px;
+	}
+} */
 #contact {
 	display: flex;
 }
